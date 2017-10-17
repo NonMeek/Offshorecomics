@@ -7,8 +7,15 @@
 	letter-spacing: 0.05em;
 }
 
+.h2 {
+	font-family: "Geometos Neue Bold";
+	font-size:15px;
+	color: #E14F4F;
+	letter-spacing: 0.05em;	
+}
+
 header {
-	width: 100%;
+	width: 90%;
 	top: 0px;
 	padding: 1.5em;
 	position: fixed;
@@ -21,17 +28,17 @@ ul {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #FCFBFB;
+	background-color: #E14F4F;
 }
 
 li {
 	float:left;
-	border-right: 1px solid #000000;
+	border-right: 2px solid whitesmoke;
 }
 
 li a {
 	display: block;
-	color: #C15718;
+	color: whitesmoke;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
@@ -42,9 +49,35 @@ li a:hover {
 	color: whitesmoke;
 }
 
-
-
-.active {
-	background-color: #000000;
+.button {
+	font-family: "Geometos Neue Bold";
+	font-size:15px;
 	color: whitesmoke;
+	letter-spacing: 0.05em;
+	background-color: #E14F4F;
+	border: none;
+	border-radius: 4px;
+	width: 150px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.24), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button:hover {
+	background-color: #555;
+	color: whitesmoke;
+}
+
+.button:active {
+	transform: translateY(6px);
+}
+
+.footer {
+	font-family: "Geometos Neue Bold";
+	color: whitesmoke;
+	font-size:15px;
+	letter-spacing: 0.05em;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #E14F4F;
+	text-align: center;
 }
