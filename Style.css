@@ -70,6 +70,14 @@ li a:hover {
 	transform: translateY(6px);
 }
 
+.spaceS {
+	height: 15px;
+}
+
+.spaceL {
+	height: 100px;
+}
+
 .footer {
 	font-family: "Geometos Neue Bold";
 	color: whitesmoke;
