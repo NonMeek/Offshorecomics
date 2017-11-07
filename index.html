@@ -20,20 +20,22 @@
 	</header>
 	<div class="spaceS"></div>
 	
-	<img src="images/Strip1.jpg" id = "mainImage" width="781" height="260" alt="">
-	<script type="text/javascript">
-		var myImage = document.getElementById('mainImage');
-		var imageArray = ["images/Strip1.jpg", "images/Strip2.PNG", "images/Strip3.PNG", "images/Strip4.PNG"];
-		var imageIndex = 1;
+	<div>
+		<img src="images/Strip1.jpg" id = "mainImage" width="781" height="260" alt="">
+		<script type="text/javascript">
+			var myImage = document.getElementById('mainImage');
+			var imageArray = ["images/Strip1.jpg", "images/Strip2.PNG", "images/Strip3.PNG", "images/Strip4.PNG"];
+			var imageIndex = 1;
 		
-		function changeImage(){
-			myImage.setAttribute("src", imageArray[imageIndex]);
-			imageIndex++;
-			if (imageIndex > 4 ) {imageIndex = 0};
-		}
-	</script>
+			function changeImage(){
+				myImage.setAttribute("src", imageArray[imageIndex]);
+				imageIndex++;
+				if (imageIndex > 4 ) {imageIndex = 0};
+			}
+		</script>
 	<button class="button" onClick="changeImage()">next</button>
-	
+	</div>
+		
 	<div class="flex-container">
 		<div class="flex-item1"></div>
 		<div class="flex-item2">
