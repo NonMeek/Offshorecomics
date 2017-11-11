@@ -1,9 +1,26 @@
-var images = ["images/Strip1.jpg", "images/Strip2.PNG", "images/Strip3.PNG", "images/Strip4.PNG"];
-var imageIndex = 1;
+var Strips = ["images/Strip1.jpg", "images/Strip2.PNG", "images/Strip3.PNG", "images/Strip4.PNG"];
 
-function changePlus(){
-	var myImage = document.getElementById('mainImage');
-	myImage.setAttribute('src', images[imageIndex]);
-	imageIndex++;
-	if(imageIndex > images.length - 1) {imageIndex = 0};
-	}
+var Current = 0;
+
+var myStrip = document.getElementById('Strip');
+myStrip.setAttribute('src', Strips[Current]);
+
+function Prev(){
+	if(Current == 0)
+		Current = Strips.length - 1;
+	else
+		Current--;
+	
+	var myStrip = document.getElementById('Strip');
+	myStrip.setAttribute('src', Strips[Current]);
+}
+
+function Next(){
+	if(Current == Strips.length - 1)
+		Current = 0
+	else
+		Current++;
+	
+	var myStrip = document.getElementById('Strip');
+	myStrip.setAttribute('src', Strips[Current]);
+}
