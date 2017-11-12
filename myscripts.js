@@ -26,6 +26,6 @@ function Next(){
 }
 
 function Rand(){
-	var myRandomStrip = Strips[Math.floor((Math.random) * Strips.length)];
+	var myRandomStrip = Strips[Math.floor(Math.random() * Strips.length)];
 	document.getElementById('Strip').setAttribute('src', myRandomStrip);
 }
