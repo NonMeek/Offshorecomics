@@ -15,9 +15,10 @@
 }
 
 header {
-	width: 95%;
+	width: 100%;
 	top: 0px;
-	padding: 0.25em;
+	padding: 0.0em;
+	opacity: 0.8;
 	position: fixed;
 }
 
