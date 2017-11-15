@@ -63,7 +63,7 @@ li a:hover {
 	background-color: #FFFFFF;
 	border-color: #E14F4F;
 	padding: 5px;
-	width: 15%;
+	width: 5%;
 	height: 100%;
 	margin: 10px;
 }
@@ -71,6 +71,15 @@ li a:hover {
 .flex-item2 {
 	background-color: #FCFCFC;
 	width: 70%;
+	height: 100%;
+	margin: 10px;
+}
+
+.flex-item3 {
+	background-color: #FFFFFF;
+	border-color: #E14F4F;
+	padding: 5px;
+	width: 25%;
 	height: 100%;
 	margin: 10px;
 }
