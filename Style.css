@@ -1,15 +1,15 @@
 @charset "utf-8";
 /* CSS Document */
 .h1 {
-	font-family: "Geometos Neue Bold";
-	font-size:25px;
+	font-family: "rabiohead";
+	font-size:60px;
 	color: #E14F4F;
 	letter-spacing: 0.05em;
 }
 
 .h2 {
-	font-family: "Geometos Neue Bold";
-	font-size:15px;
+	font-family: "Paper Cuts";
+	font-size:35px;
 	color: #E14F4F;
 	letter-spacing: 0.05em;	
 }
@@ -23,8 +23,8 @@ header {
 }
 
 ul {
-	font-family: "Geometos Neue Bold";
-	font-size: 20px;
+	font-family: "Paper Cuts";
+	font-size: 30px;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -64,14 +64,14 @@ li a:hover {
 	background-color: #FFFFFF;
 	border-color: #E14F4F;
 	padding: 5px;
-	width: 5%;
+	width: 25%;
 	height: 100%;
 	margin: 10px;
 }
 
 .flex-item2 {
 	background-color: #FCFCFC;
-	width: 70%;
+	width: 100%;
 	height: 100%;
 	margin: 10px;
 }
@@ -86,8 +86,8 @@ li a:hover {
 }
 
 .button {
-	font-family: "Geometos Neue Bold";
-	font-size:15px;
+	font-family: "Paper Cuts";
+	font-size: 20px;
 	color: whitesmoke;
 	letter-spacing: 0.05em;
 	background-color: #E14F4F;
@@ -115,9 +115,9 @@ li a:hover {
 }
 
 .footer {
-	font-family: "Geometos Neue Bold";
+	font-family: "Paper Cuts";
 	color: whitesmoke;
-	font-size:15px;
+	font-size: 25px;
 	letter-spacing: 0.05em;
 	left: 0;
 	bottom: 0;
