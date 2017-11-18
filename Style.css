@@ -85,6 +85,118 @@ li a:hover {
 	margin: 10px;
 }
 
+.flex-containerABOUTauthor {
+	display: -webkit-flex;
+	display: flex;	
+	-webkit-justify-content: center;
+	justify-content: center;
+	width: 100%;
+	height:125px;
+	background-color: #FFFFFF;
+}
+
+.flex-itemABOUTcreator1 {
+	background-color: #FFFFFF;
+	border-color: #E14F4F;
+	flex-direction: column;
+	padding: 5px;
+	width: 25%;
+	height: 100%;
+	margin: 10px;
+}
+
+.flex-itemABOUTcreator2 {
+	background-color: #FFFFFF;
+	border-color: #E14F4F;
+	flex-direction: column;
+	padding: 5px;
+	width: 75%;
+	height: 100%;
+	margin: 10px;
+}
+
+.flex-containerABOUT {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+	width: 100%;
+	height: 500px;
+	background-color: #DD4D4F;
+}
+
+.flex-itemABOUT1 {
+	background-color: #FFFFFF;
+	border-color: #E14F4F;
+	padding: 5px;
+	width: 15%;
+	height: 100%;
+	margin: 10px;
+}
+
+.flex-itemABOUT2 {
+	background-color: #FFFFFF;
+	border-color: #E14F4F;
+	padding: 5px;
+	width: 15%;
+	height: 100%;
+	margin: 10px;
+}
+
+.flex-itemABOUT2 {
+	background-color: #FFFFFF;
+	border-color: #E14F4F;
+	padding: 5px;
+	width: 15%;
+	height: 100%;
+	margin: 10px;
+}
+
+.flex-itemABOUT3 {
+	background-color: #FFFFFF;
+	border-color: #E14F4F;
+	padding: 5px;
+	width: 15%;
+	height: 100%;
+	margin: 10px;
+}
+
+.flex-itemABOUT4 {
+	background-color: #FFFFFF;
+	border-color: #E14F4F;
+	padding: 5px;
+	width: 15%;
+	height: 100%;
+	margin: 10px;
+}
+
+.flex-itemABOUT5 {
+	background-color: #FFFFFF;
+	border-color: #E14F4F;
+	padding: 5px;
+	width: 15%;
+	height: 100%;
+	margin: 10px;
+}
+
+.flex-itemABOUT6 {
+	background-color: #FFFFFF;
+	border-color: #E14F4F;
+	padding: 5px;
+	width: 15%;
+	height: 100%;
+	margin: 10px;
+}
+
+.flex-itemABOUT7 {
+	background-color: #FFFFFF;
+	border-color: #E14F4F;
+	padding: 5px;
+	width: 15%;
+	height: 100%;
+	margin: 10px;
+}
+
 .button {
 	font-family: "Paper Cuts";
 	font-size: 20px;
@@ -109,6 +221,11 @@ li a:hover {
 .spaceS {
 	height: 15px;
 }
+
+.spaceM {
+	height: 60px;
+}
+
 
 .spaceL {
 	height: 100px;
