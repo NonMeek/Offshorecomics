@@ -356,13 +356,6 @@ li a:hover {
 	background-color: #555;
 }
 
-.dropdown-content a:hover {
-    background-color: #555;
-}
-
 .show {
     display: block;
-}
-.dropdown-content a:hover {
-    background-color: #555;
 }
