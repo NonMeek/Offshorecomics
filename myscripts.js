@@ -33,3 +33,16 @@ function Rand(){
 	var myRandomStrip = Strips[Math.floor(Math.random() * Strips.length)];
 	document.getElementById('Strip').setAttribute('src', myRandomStrip);
 }
+
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}

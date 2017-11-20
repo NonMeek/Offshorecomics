@@ -13,8 +13,13 @@
 			<ul class="navigation">
 				<li><a href="index.html">HOME</a></li>
 				<li><a href="About.html">ABOUT</a></li>
-				<li><a href="#">FOLLOW</a></li>
-				<li style="float:right"><a class="active" href="#">CONTACT</a></li>
+				<li class="dropdown">
+					<button class="dropbtn" onClick="myFunction()">FOLLOW</button>
+					<div class="dropdown-content" id="myDropdown">
+						<a href="https://twitter.com/NonMeek">Twitter</a>
+					</div>
+				</li>
+				<li><a href="#">CONTACT</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -34,7 +39,5 @@
 	</div>
 </body>
 	<div class="spaceL"></div>
-	<div class="footer">
-		<a class="footer" href="#">COPYRIGHT</a>
-	</div>
+	<footer class="footer" href="#">COPYRIGHT</footer>
 </html>

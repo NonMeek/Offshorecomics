@@ -8,14 +8,17 @@
 </head>
 <body>
 	<header>
-		<nav>
-			<ul class="navigation">
+		<ul class="navigation">
 				<li><a href="index.html">HOME</a></li>
 				<li><a href="About.html">ABOUT</a></li>
-				<li><a href="#">FOLLOW</a></li>
-				<li style="float:right"><a class="active" href="#">CONTACT</a></li>
+				<li class="dropdown">
+					<button class="dropbtn" onClick="myFunction()">FOLLOW</button>
+					<div class="dropdown-content" id="myDropdown">
+						<a href="https://twitter.com/NonMeek">Twitter</a>
+					</div>
+				</li>
+				<li><a href="#">CONTACT</a></li>
 			</ul>
-		</nav>
 	</header>
 	<div class="spaceM"></div>
 	<div class="flex-containerABOUTcreator">
@@ -34,10 +37,7 @@
 		<div class="flex-itemABOUT6">Compliance Offizier is a deranged psycho, who dumps and enforces mercilessly any new regulations upon the helpless bankers. He is generally useless but can nevertheless do whatever pleases him because within the bank he’s an “untouchable”.</div>
 		<div class="flex-itemABOUT7">Hedge Fund Manager is a simple-minded, hedonistic high-frequency-trader (HFT), who occasionally masquerades as a hedge fund manager (HFM). His underlying motive is to get more while giving less in return, or failing at that, to outright steal your money. </div>
 	</div>
-	
 </body>
-<div class="spaceL"></div>
-	<div class="footer">
-		<a class="footer" href="#">COPYRIGHT</a>
-	</div>	
+	<div class="spaceL"></div>
+	<footer class="footer" href="#">COPYRIGHT</footer>
 </html>
