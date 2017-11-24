@@ -37,6 +37,16 @@ function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
 
+function Frst(){
+	var myStrip = document.getElementById('Strip');
+	myStrip.setAttribute('src', Strips[0]);
+}
+
+function Last(){
+	var myStrip = document.getElementById('Strip');
+	myStrip.setAttribute('src', Strips[Strips.length - 1]);
+}
+
 window.onclick = function(e) {
   if (!e.target.matches('.dropbtn')) {
     var myDropdown = document.getElementById("myDropdown");
