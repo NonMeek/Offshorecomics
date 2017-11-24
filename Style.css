@@ -269,13 +269,13 @@ li a:hover {
 
 .button {
 	font-family: "Paper Cuts";
-	font-size: 30px;
+	font-size: 25px;
 	color: whitesmoke;
 	letter-spacing: 0.05em;
 	background-color: #E14F4F;
 	border: none;
 	border-radius: 4px;
-	width: 85px;
+	width: 65px;
 	box-shadow: 0 6px 14px 0 rgba(0,0,0,0.24), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
