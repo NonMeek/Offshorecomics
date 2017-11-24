@@ -1,4 +1,4 @@
-var Strips = ["images/Strip8.PNG","images/Strip1.PNG","images/Strip2.PNG","images/Strip3.PNG","images/Strip4.PNG","images/Strip5.PNG","images/Strip6.PNG", "images/Strip7.PNG"];
+var Strips = ["images/Strip8.PNG","images/Strip7.PNG","images/Strip6.PNG","images/Strip5.PNG","images/Strip4.PNG", "images/Strip3.PNG","images/Strip2.PNG","images/Strip1.PNG"];
 
 var Current = 0;
 var myStrip = null;
