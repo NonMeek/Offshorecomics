@@ -1,11 +1,14 @@
-var Strips = ["images/Strip9.PNG","images/Strip8.PNG","images/Strip7.PNG","images/Strip6.PNG","images/Strip5.PNG","images/Strip4.PNG","images/Strip3.PNG","images/Strip2.PNG","images/Strip1.PNG"];
+var Strips = [];
 
 var Current = 0;
 var myStrip = null;
 
 function init(){
-	myStrip = document.getElementById('Strip');
-	myStrip.setAttribute('src', Strips[Current]);
+    $.get("localhost/images", function(data, status) {
+	    Strips = data;
+        myStrip = document.getElementById('Strip');
+	    myStrip.setAttribute('src', Strips[Current]);
+    });
 }
 
 function Prev(){
@@ -56,6 +59,3 @@ window.onclick = function(e) {
   }
 }
 
-/*$.get("localhost/images", function(data, status){
-	Strip = data;
-});*/
