@@ -157,7 +157,7 @@ li a:hover {
 	font-family: "Paper Cuts";
 	background-color: #FFFFFF;
 	border-color: #E14F4F;
-	flex-direction: column;
+	flex-direction: row;
 	padding: 5px;
 	width: 25%;
 	height: 100%;
@@ -168,7 +168,7 @@ li a:hover {
 	font-family: "Paper Cuts";
 	background-color: #FFFFFF;
 	border-color: #E14F4F;
-	flex-direction: column;
+	flex-direction: row;
 	padding: 5px;
 	width: 75%;
 	height: 100%;
