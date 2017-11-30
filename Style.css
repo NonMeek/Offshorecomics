@@ -110,7 +110,7 @@ li a:hover {
 	-webkit-justify-content: center;
 	justify-content: center;
 	width: 100%;
-	height:95%;
+	height:50%;
 	background-color: #FFFFFF;
 	flex-flow: row;
 	justify-content: space-around;
