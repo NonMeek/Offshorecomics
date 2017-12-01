@@ -6,7 +6,9 @@ app = Flask(__name__)
 
 @app.route("/images",methods=["GET"] )
 def images():
-    files = [f for f in os.listdir("./images") if f.endswith(".PNG")]
+    files = sorted(["/static/images/" + f 
+        for f in os.listdir("./static/images") 
+        if f.endswith(".PNG")])
     return jsonify(files)
 
 @app.route("/Offshorecomics",methods=["GET"] )

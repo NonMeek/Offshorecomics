@@ -1,10 +1,12 @@
 var Strips = [];
 
 var Current = 0;
+var imageUrl = null
 var myStrip = null;
 
-function init(){
-    $.get("localhost/images", function(data, status) {
+function init(url){
+    imageUrl = url;
+    $.get("images", function(data, status) {
 	    Strips = data;
         myStrip = document.getElementById('Strip');
 	    myStrip.setAttribute('src', Strips[Current]);
