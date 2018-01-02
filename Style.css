@@ -443,3 +443,22 @@ li a:hover {
 	border-radius: 4px;
 	align-self: center;
 }
+
+.wrapperContact {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	border-radius: 4px;
+	background-color: #FAF5F6;
+}
+
+.wrapperContact-item img {
+	width: 100%;
+	object-fit: contain;
+	border-radius: 4px;
+	align-self: center;
+}
