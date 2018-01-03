@@ -6,12 +6,20 @@
 /************** NAVIGATION ***************/
 
 nav ul {
+	list-style: none;
 	display: flex; 
 	flex-wrap: wrap; 
 	max-width: 1080px; 
 	margin: 0 auto;		
 	background:#E14F4F;
+	opacity: 0.85;
 }
+
+li {
+	float:left;
+	border-right: 2px solid whitesmoke;
+}
+
 nav ul,
 nav li {
 	flex: 1;
@@ -33,16 +41,17 @@ nav a:hover {
 nav li {
 	position: relative;
 	line-height: 50px;
-	color: #fff;
+	color: whitesmoke;
 	text-align: center;
-}  
+}
+
 nav input,
 nav label {
 	display: none;
 	width: 36px; 
 	height: 36px; 
 	background: #555; 
-	color: #fff; 
+	color: whitesmoke; 
 	text-align: center; 
 	line-height: 36px;
 	font-size: 1.6rem;
@@ -78,19 +87,19 @@ nav label:before {
 	nav li {
 		flex: none; 
 		width: 100%;
-		border-bottom: solid 1px #777;
+		border-bottom: solid 1px whitesmoke;
 	} 
 	nav input[type="checkbox"]:checked + ul  {
 		transform: translateY(-100%);
 		width: 100%;
-		background: #999;   
+		background: #555;   
     	transition: all .5s;
 	}
 	nav label{
     	display: block;
    }  
 	nav input[type="checkbox"]:checked + ul li:nth-child(1){
-		background: #777; 
-		color: #fff;
+		background: #555; 
+		color: whitesmoke;
 	}  
 }
