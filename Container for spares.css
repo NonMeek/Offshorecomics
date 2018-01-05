@@ -1,5 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
+/*  This is the original CSS code from Style.css ... with the FOLLOW dropdown menu, which has JS code for the onclick function. */
 
 .h1 {
 	font-family: "Rabiohead";
@@ -23,57 +24,103 @@ header {
 	position: fixed;
 }
 
-@import "compass/css3";
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 
-.navigation {
-  list-style: none;
-  margin: 0; 
-  background: #E14F4F;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  
-  -webkit-flex-flow: row wrap;
-  justify-content: flex-end;
+nav ul {
+	list-style: none;
+	display: flex; 
+	flex-wrap: wrap; 
+	max-width: 1080px; 
+	margin: 0 auto;		
+	background:#E14F4F;
+	opacity: 0.85;
 }
 
-.navigation a {
-  text-decoration: none;
-  display: block;
-  padding: 0.4em;
-  color: white;
+li {
+	float:left;
+	border-right: 2px solid whitesmoke;
 }
 
-.navigation a:hover {
-  background: darken(#E14F4F, 2%);
+nav ul,
+nav li {
+	flex: 1;
+	font-family: "Paper Cuts";
+}
+nav li:last-child {
+	border-bottom: none;
+}
+nav a {
+	text-decoration: none;
+	color: inherit;
+	display: block;
+	font-size: 1.8rem;
+}
+nav a:hover {
+	background: #555;
+	color: whitesmoke;
+}
+nav li {
+	position: relative;
+	line-height: 50px;
+	color: whitesmoke;
+	text-align: center;
 }
 
-@media all and (max-width: 800px) {
-  .navigation {
-    justify-content: space-around;
-  }
+nav input,
+nav label {
+	display: none;
+	width: 36px; 
+	height: 36px; 
+	background: #555; 
+	color: whitesmoke; 
+	text-align: center; 
+	line-height: 36px;
+	font-size: 1.6rem;
+	border-radius: 2px;
+} 
+nav label {
+	position: absolute; 
+	top: 8px; 
+	right: 8px; 
+	transition: .4s;
+}
+nav label:hover {cursor:pointer;}
+nav label:before {
+	font-family: FontAwesome;
+	font-size: 24px;
+	content: "\f0c9";
+	text-align: center;
 }
 
-@media all and (max-width: 600px) {
-  .navigation {
-    -webkit-flex-flow: column wrap;
-    flex-flow: column wrap;
-    padding: 0;
-  }
-  
-  .navigation a { 
-    text-align: center; 
-    padding: 10px;
-    border-top: 1px solid rgba(255,255,255,0.3); 
-    border-bottom: 1px solid rgba(0,0,0,0.1); 
-  }
-
-  
-  .navigation li:last-of-type a {
-    border-bottom: none;
-  }
+@media only screen and (max-width: 1080px){
+   nav {
+      position: relative;
+   }
+	nav ul {
+		transform: translateY(0);
+		box-shadow: 0 0 5px rgba(0,0,0, .7);
+    	transition: all .5s;
+    	position: absolute;
+    	width: 100%;
+	}
+	nav li {
+		flex: none; 
+		width: 100%;
+		border-bottom: solid 1px whitesmoke;
+	} 
+	nav input[type="checkbox"]:checked + ul  {
+		transform: translateY(-100%);
+		width: 100%;
+		background: #555;   
+    	transition: all .5s;
+	}
+	nav label{
+    	display: block;
+   }  
+	nav input[type="checkbox"]:checked + ul li:nth-child(1){
+		background: #555; 
+		color: whitesmoke;
+	}  
 }
 
 ul {
@@ -85,25 +132,7 @@ ul {
 	overflow: hidden;
 	background-color: #E14F4F;
 }
-
-li {
-	float:left;
-	border-right: 2px solid whitesmoke;
-}
-
-li a {
-	display: block;
-	color: whitesmoke;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-}
-
-li a:hover {
-	background-color: #555;
-	color: whitesmoke;
-}
-
+	
 .wrapper2 {
 	display: flex;
 	justify-content: center;
@@ -163,30 +192,26 @@ li a:hover {
 	align-self: center;
 }
 
-@media all and (min-width: 800px) {
-	.wrapper3 {
-		display: -webkit-flex;
-		display: flex;
-		-webkit-justify-content: center;
-		width: 100%;
-		height:50%;
-		background-color: #FFFFFF;
-		flex-flow: row;
-		justify-content: space-around;
-		flex-wrap: wrap;
-		object-fit: contain;
-	}
+.wrapper3 {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	width: 100%;
+	height:50%;
+	background-color: #FFFFFF;
+	flex-flow: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	object-fit: contain;
 }
 
-@media all and (min-width: 600px) {
-		.wrap-item3 {
-		background-color: #FfFfFf;
-		justify-content: contain;
-		align-content: center;
-		height: 100%;
-		margin: 10px;
-		object-fit: contain;
-	}
+.wrap-item3 {
+	background-color: #FfFfFf;
+	justify-content: contain;
+	align-content: center;
+	height: 100%;
+	margin: 10px;
+	object-fit: contain;
 }
 
 .button {
@@ -243,46 +268,46 @@ li a:hover {
 	text-align: center;
 }
 
-.dropdown {
-	float: left;
-	overflow: hidden;
-}
-
-.dropdown .dropbtn {
-    font-family: "Paper Cuts";
+.dropbtn {
+	font-family: "Paper Cuts";
+	background-color: #e14f4f;
+	color: whitesmoke;
+	padding: 16px;
+	font-size: 30px;
+	border: none;
 	cursor: pointer;
-    font-size: 30px;    
-    border: none;
-    outline: none;
-    color: whitesmoke;
-    padding: 12px;
-    background-color: #E14F4F;
+	width: 100%;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: #555;
+.dropdown {
+	position: relative;
+	display: inline-block;
 }
 
 .dropdown-content {
 	display: none;
-	font-size: 30px;
 	position: absolute;
-	background-color: black;
-	min-width: 150px;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0,2);
+	background-color: #333;
+	min-width: 100%;
+	overflow: auto;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
 }
 
 .dropdown-content a {
-	float: none;
 	color: whitesmoke;
-	padding: 14px 16px;
+	padding: 12px 16px;
 	text-decoration: none;
 	display: block;
-	text-align: left;
 }
 
-.dropdown-content a:hover {
+.dropdown-content a:hover {background-color: #555}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .dropbtn {
 	background-color: #555;
 }
 
