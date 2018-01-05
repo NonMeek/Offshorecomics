@@ -135,17 +135,6 @@ ul {
 	align-self: center;
 }
 
-
-
-
-
-.h1 {
-	font-family: "Rabiohead";
-	font-size:60px;
-	color: #E14F4F;
-	letter-spacing: 0.05em;
-}
-
 .h2 {
 	font-family: 'Paper Cuts';
 	font-size:35px;
@@ -442,4 +431,26 @@ ul {
 	height: 30px;
 	background-color: #E14F4F;
 	text-align: center;
+}
+
+.wrapper6 {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 150px;
+}
+
+.wrap-item61 {
+	height: 75px;
+	width: 100%;
+}
+
+.wrap-item62 {
+	text-overflow: clip;
+	display: flex;
+	font-family: "Rabiohead";
+	font-size:65px;
+	color: #E14F4F;
+	height: 75px;
+	width: 1000px;
 }
