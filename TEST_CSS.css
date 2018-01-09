@@ -116,25 +116,6 @@ ul {
 	background-color: #E14F4F;
 }
 
-.wrapper2 {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: row wrap;
-	object-fit: cover;
-	width: 100%;
-	height: 100%;
-	border-radius: 4px;
-	background-color: hsl(0, 0%, 96%);
-}
-
-.wrap-item2 img {
-	width: 100%;
-	object-fit: contain;
-	border-radius: 4px;
-	align-self: center;
-}
-
 .h2 {
 	font-family: 'Paper Cuts';
 	font-size:35px;
@@ -154,7 +135,7 @@ ul {
 	width: 100%;
 	height: 100%;
 	border-radius: 4px;
-	background-color: hsl(0, 0%, 96%);
+	background-color: #FFFFFF;
 }
 
 .wrap-item2 img {
@@ -174,7 +155,7 @@ ul {
 	width: 100%;
 	height: 100%;
 	border-radius: 4px;
-	background-color: hsl(0, 0%, 96%);
+	background-color: #FFFFFF;
 }
 
 .wrap-item1 img {
@@ -208,7 +189,7 @@ ul {
 	width: 100%;
 	height: 100%;
 	border-radius: 4px;
-	background-color: hsl(0, 0%, 96%);
+	background-color: #FFFFFF;
 }
 
 .wrap-item2 img {
@@ -272,7 +253,7 @@ ul {
 	width: 100%;
 	height: 100%;
 	border-radius: 4px;
-	background-color: #FAF5F6;
+	background-color: #FFFFFF;
 }
 
 .wrap-item4 img {
@@ -294,7 +275,7 @@ ul {
 	width: 100%;
 	height: 100%;
 	border-radius: 4px;
-	background-color: #FAF5F6;
+	background-color: #FFFFFF;
 }
 
 .wrapperAbout-item1 img {
@@ -365,7 +346,7 @@ ul {
 	width: 100%;
 	height: 100%;
 	border-radius: 4px;
-	background-color: #FAF5F6;
+	background-color: #FFFFFF;
 }
 
 .wrapperContact-item img {
@@ -380,6 +361,7 @@ ul {
 	flex-direction: column;
 	width: 100%;
 	height: 250px;
+	background-color: #FFFFFF;
 }
 
 .wrap-item51 {
@@ -407,6 +389,7 @@ ul {
 	flex-direction: column;
 	width: 100%;
 	height: 100%;
+	background-color: #FFFFFF;
 }
 
 .wrap-item61 {
