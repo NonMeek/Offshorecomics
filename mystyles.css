@@ -2,6 +2,16 @@
 /* CSS Document */
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 
+@font-face {
+	font-family: "Paper Cuts";
+	src: url(Web Fonts/Gustav - Brun - PaperCuts.ttf);
+}
+
+@font-face {
+	font-family: "Rabiohead";
+	src: url(Web Fonts/rabiohead.ttf);
+}
+
 nav ul {
 	list-style: none;
 	display: flex; 
@@ -386,23 +396,19 @@ ul {
 	display: -webkit-flex;
 	dispaly: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	object-fit: cover;
 	width: 100%;
 	height: 100%;
+	border-radius: 4px;
 	background-color: #FFFFFF;
 }
 
-.wrap-item61 {
-	height: 50px;
+.wrap-item61 img {
 	width: 100%;
-	background: #FDFCFC;
-}
-
-.wrap-item62 {
-	display: flex;
-	font-family: "Rabiohead";
-	font-size:65px;
-	color: #E14F4F;
-	height: 75px;
-	width: 1000px;
+	object-fit: contain;
+	border-radius: 4px;
+	align-self: center;
 }
