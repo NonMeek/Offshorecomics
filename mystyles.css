@@ -2,16 +2,6 @@
 /* CSS Document */
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 
-@font-face {
-	font-family: "Paper Cuts";
-	src: url(Web Fonts/Gustav - Brun - PaperCuts.ttf);
-}
-
-@font-face {
-	font-family: "Rabiohead";
-	src: url(Web Fonts/rabiohead.ttf);
-}
-
 nav ul {
 	list-style: none;
 	display: flex; 
@@ -30,8 +20,9 @@ li {
 nav ul,
 nav li {
 	flex: 1;
-	font-family: "Paper Cuts";
+	font-family: 'PaperCuts';
 }
+
 nav li:last-child {
 	border-bottom: none;
 }
@@ -117,7 +108,7 @@ nav label:before {
 }
 
 ul {
-	font-family: "Paper Cuts";
+	font-family: 'PaperCuts';
 	font-size: 30px;
 	list-style-type: none;
 	margin: 0;
@@ -127,7 +118,7 @@ ul {
 }
 
 .h2 {
-	font-family: 'Paper Cuts';
+	font-family: 'PaperCuts';
 	font-size:35px;
 	color: #E14F4F;
 	letter-spacing: 0.05em;	
@@ -232,7 +223,7 @@ ul {
 }
 
 .button {
-	font-family: "Paper Cuts";
+	font-family: 'PaperCuts';
 	font-size: 25px;
 	color: whitesmoke;
 	background-color: #E14F4F;
@@ -382,7 +373,7 @@ ul {
 
 .wrap-item52 {
 	opacity: 0.8;
-	font-family: "Paper Cuts";
+	font-family: 'PaperCuts';
 	color: whitesmoke;
 	font-size: 20px;
 	width: 100%;
