@@ -2,6 +2,7 @@
 /* CSS Document */
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 
+
 nav ul {
 	list-style: none;
 	display: flex; 
@@ -373,7 +374,7 @@ ul {
 
 .wrap-item52 {
 	opacity: 0.8;
-	font-family: 'PaperCuts';
+	font-family: "PaperCuts";
 	color: whitesmoke;
 	font-size: 20px;
 	width: 100%;
