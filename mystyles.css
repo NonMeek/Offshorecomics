@@ -47,12 +47,12 @@ nav li {
 nav input,
 nav label {
 	display: none;
-	width: 36px; 
-	height: 36px; 
+	width: 50px; 
+	height: 50px; 
 	background: #555; 
 	color: whitesmoke; 
 	text-align: center; 
-	line-height: 36px;
+	line-height: 50px;
 	font-size: 1.6rem;
 	border-radius: 2px;
 } 
@@ -65,7 +65,7 @@ nav label {
 nav label:hover {cursor:pointer;}
 nav label:before {
 	font-family: FontAwesome;
-	font-size: 24px;
+	font-size: 36px;
 	content: "\f0c9";
 	text-align: center;
 }
