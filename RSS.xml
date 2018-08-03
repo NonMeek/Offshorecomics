@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+	<channel>
+	<title>Offshorecomic Home Page</title>
+	<link>offshorecomic.com</link>
+	<description>Earth's leading financial(ish) cartoon strip.</description>
+	<language>en-us</language>
+		<item>
+			<title>Today's Offshorecomic</title>
+			<link>offshorecomic.com</link>
+			<description>Most recent Offshore comic strip.</description>
+		</item>
+	</channel>
+	</rss>
