@@ -4,58 +4,67 @@ var Current = 0;
 var myStrip = null;
 
 function init(){
-	myStrip = document.getElementById('Strip');
-	myStrip.setAttribute('src', Strips[Current]);
+  setInitialStrip();
+  loadTotalCount();
+}
+
+function setInitialStrip() {
+  var id = Current;
+  setStrip(Current)
+}
+
+function loadTotalCount() {
+  totalCount = document.getElementById('totalCount');
+  totalCount.innerText = Strips.length;
+}
+
+function setStrip(id) {
+  var strip = Strips[id]
+  var currentStrip = document.getElementById('Strip');
+  currentStrip.setAttribute('src', strip);
+  var currentCount = document.getElementById('currentCount');
+  currentCount.innerText = id + 1;
+  Current = id
 }
 
 function Prev(){
-	if(Current == 0)
-		Current = Strips.length - 1;
-	else
-		Current--;
-	
-	var myStrip = document.getElementById('Strip');
-	myStrip.setAttribute('src', Strips[Current]);
+  var id = Current;
+
+  if(id == 0) {
+    id = Strips.length - 1;
+  } else {
+    id--;
+  }
+
+  setStrip(id);
 }
 
 function Next(){
-	if(Current == Strips.length - 1)
-		Current = 0
-	else
-		Current++;
-	
-	var myStrip = document.getElementById('Strip');
-	myStrip.setAttribute('src', Strips[Current]);
+  var id = Current;
+
+  if(id == Strips.length - 1) {
+    id = 0
+  } else {
+    id++;
+  }
+
+  setStrip(id);
 }
 
 function Rand(){
-	var myRandomStrip = Strips[Math.floor(Math.random() * Strips.length)];
-	document.getElementById('Strip').setAttribute('src', myRandomStrip);
+  var id = Math.floor(Math.random() * Strips.length);
+
+  setStrip(id);
 }
 
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-}
+function First(){
+  var id = 0;
 
-function Frst(){
-	var myStrip = document.getElementById('Strip');
-	myStrip.setAttribute('src', Strips[0]);
+  setStrip(id);
 }
 
 function Last(){
-	var myStrip = document.getElementById('Strip');
-	myStrip.setAttribute('src', Strips[Strips.length - 1]);
-}
+  var id = Strips.length - 1;
 
-window.onclick = function(e) {
-  if (!e.target.matches('.dropbtn')) {
-    var myDropdown = document.getElementById("myDropdown");
-      if (myDropdown.classList.contains('show')) {
-        myDropdown.classList.remove('show');
-      }
-  }
+  setStrip(id);
 }
-
-/*$.get("localhost/images", function(data, status){
-	Strip = data;
-});*/
