@@ -56,12 +56,14 @@ nav label {
 	font-size: 1.6rem;
 	border-radius: 2px;
 }
-	nav label {
+
+nav label {
 	position: absolute;
 	top: 8px;
 	right: 8px;
 	transition: .4s;
 }
+
 nav label:hover {cursor:pointer;}
 nav label:before {
 	font-family: FontAwesome;
@@ -93,6 +95,7 @@ nav label:before {
 		background: #555;
 		transition: all .5s;
 	}
+
 	nav label{
     	display: block;
    }
