@@ -5,10 +5,10 @@
 
 nav ul {
 	list-style: none;
-	display: flex; 
-	flex-wrap: wrap; 
-	max-width: 1080px; 
-	margin: 0 auto;		
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1080px;
+	margin: 0 auto;
 	background:#E14F4F;
 	opacity: 0.85;
 }
@@ -47,19 +47,19 @@ nav li {
 nav input,
 nav label {
 	display: none;
-	width: 50px; 
-	height: 50px; 
-	background: #555; 
-	color: whitesmoke; 
-	text-align: center; 
+	width: 50px;
+	height: 50px;
+	background: #555;
+	color: whitesmoke;
+	text-align: center;
 	line-height: 50px;
 	font-size: 1.6rem;
 	border-radius: 2px;
-} 
-nav label {
-	position: absolute; 
-	top: 8px; 
-	right: 8px; 
+}
+	nav label {
+	position: absolute;
+	top: 8px;
+	right: 8px;
 	transition: .4s;
 }
 nav label:hover {cursor:pointer;}
@@ -83,23 +83,23 @@ nav label:before {
 		opacity: 0.8;
 	}
 	nav li {
-		flex: none; 
+		flex: none;
 		width: 100%;
 		border-bottom: solid 1px whitesmoke;
-	} 
+	}
 	nav input[type="checkbox"]:checked + ul  {
 		transform: translateY(-100%);
 		width: 100%;
-		background: #555;   
-    	transition: all .5s;
+		background: #555;
+		transition: all .5s;
 	}
 	nav label{
     	display: block;
-   }  
+   }
 	nav input[type="checkbox"]:checked + ul li:nth-child(1){
-		background: #555; 
+		background: #555;
 		color: whitesmoke;
-	}  
+	}
 }
 
 .navigation {
@@ -122,8 +122,8 @@ ul {
 	font-family: 'PaperCuts';
 	font-size:35px;
 	color: #E14F4F;
-	letter-spacing: 0.05em;	
-}
+	letter-spacing: 0.05em;
+	}
 
 .wrapper2 {
 	display: -webkit-box;
@@ -403,4 +403,9 @@ ul {
 	object-fit: contain;
 	border-radius: 4px;
 	align-self: center;
+}
+
+.count {
+	font-family: "PaperCuts";
+	font-size: 20px;
 }
