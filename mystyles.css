@@ -339,6 +339,13 @@ ul {
 	align-self: center;
 }
 
+.wrapperAbout-item9 img {
+	width: 100%;
+	object-fit: contain;
+	border-radius: 4px;
+	align-self: center;
+}
+
 .wrapperContact {
 	display: -webkit-box;
 	display: -webkit-flex;
