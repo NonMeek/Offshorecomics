@@ -10,7 +10,7 @@ nav ul {
 	flex-wrap: wrap;
 	max-width: 1080px;
 	margin: 0 auto;
-	background:#E14F4F;
+	background:#0092ce;
 	opacity: 0.85;
 }
 
@@ -119,13 +119,13 @@ ul {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #E14F4F;
+	background-color: #0092ce;
 }
 
 .h2 {
 	font-family: 'PaperCuts';
 	font-size:35px;
-	color: #E14F4F;
+	color: #0092ce;
 	letter-spacing: 0.05em;
 	}
 
@@ -231,7 +231,7 @@ ul {
 	font-family: 'PaperCuts';
 	font-size: 25px;
 	color: whitesmoke;
-	background-color: #E14F4F;
+	background-color: #0092ce;
 	border: none;
 	border-radius: 4px;
 	width: 55px;
@@ -390,7 +390,7 @@ ul {
 	font-size: 20px;
 	width: 100%;
 	height: 30px;
-	background-color: #E14F4F;
+	background-color: #0092ce;
 	text-align: center;
 }
 
