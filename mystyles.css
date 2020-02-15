@@ -298,6 +298,12 @@ ul {
 	align-self: center;
 }
 
+.wrapperStore-item3 img {
+	width: 50%;
+	object-fit: contain;
+	border-radius: 4px;
+	align-self: center;
+}
 
 .wrapperAbout {
 	display: -webkit-box;
