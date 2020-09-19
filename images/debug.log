@@ -371,3 +371,14 @@
 [0909/100206.071:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
 [0909/100211.076:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
 [0909/100216.088:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0915/112534.200:WARNING:angle_platform_impl.cc(52)] compileToBinary(230): 
+C:\fakepath(69,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(77,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0915/113346.099:ERROR:angle_platform_impl.cc(47)] reset(615): Could not create additional swap chains or offscreen surfaces, HRESULT: 0x887A0001
+[0915/113346.099:ERROR:gl_surface_egl.cc(537)] EGL Driver message (Critical) eglCreateWindowSurface: Bad allocation.
+[0915/113346.099:ERROR:gl_surface_egl.cc(1057)] eglCreateWindowSurface failed with error EGL_BAD_ALLOC
+[0915/113346.099:ERROR:gl_surface_egl.cc(1366)] Failed to resize window.
+[0915/113346.099:ERROR:gles2_cmd_decoder.cc(5726)] GLES2DecoderImpl: Context lost because resize failed.
+[0915/113346.099:ERROR:gles2_cmd_decoder.cc(5855)] Error: 5 for Command kResizeCHROMIUM
+[0915/113346.100:ERROR:gpu_channel_manager.cc(218)] Exiting GPU process because some drivers cannot recover from problems.
